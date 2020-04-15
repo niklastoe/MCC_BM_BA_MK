@@ -56,3 +56,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+
+#stuff 
+.ipynb_checkpoints/
+additional_work/
