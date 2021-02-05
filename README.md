@@ -1,10 +1,19 @@
-# Comparison of Matthews correlation coefficient, bookmaker's informedness, balanced accuracy and markedness
+# The Matthews correlation coefficient (MCC) is more reliable than balanced accuracy, bookmaker informedness, and markedness in two-class confusion matrix evaluation
 
-This repository contains the necessary jupyter notebooks to recreate the figures from our manuscrpt from scratch.
+This repository contains the necessary jupyter notebooks to recreate the figures from our open access publication
 
-* `MCC_BM_BA_MK_samples.ipynb` samples millions of confusion matrices and plots the corresponding metric values 
-* `BM_measures_randomness_MCC_and_MK_donot.ipynb` simulates classifiers with known degrees of information/randomness and shows the corresponding metric values for them
-* `mediocre_MCC_does_not_protect_against_one_low_basic_rate.ipynb` shows that if MCC=0.5, one of the basic rates can be quite low.
+Davide Chicco, Niklas Tötsch and Giuseppe Jurman. 
+["The Matthews correlation coefficient (MCC) is more reliable than balanced accuracy, bookmaker informedness, and markedness in two-class confusion matrix evaluation"](https://doi.org/10.1186/s13040-021-00244-z). 
+BioData Mining 14, 13 (2021)
+
+from scratch.
+Please refer to the article for an in-depth discussion of the project.
+
+# Repository content
+
+* `MCC_BM_BA_MK_samples.ipynb` samples millions of confusion matrices and plots the corresponding metric values (Figure 1)
+* `high_multicategory_metrics.ipynb` show how positive predictive value (also known as precision) and negative predictive value depend on the prevalence of the data set (Figure 3)
+* `BM_measures_randomness_MCC_and_MK_donot.ipynb` simulates classifiers with known degrees of information/randomness and shows the corresponding metric values for them (Figure 4)
 
 # Instructions
 
@@ -17,3 +26,21 @@ If you experience any problems with missing packages/dependencies, please create
 # Contact
 
 If you have questions or comments, please contact [niklas(dot)toetsch(at)uni-due(dot)de](mailto:niklas.toetsch@uni-due.de) or create an [issue](https://github.com/niklastoe/MCC_BM_BA_MK/issues).
+
+# Citation
+
+
+```
+@article{Chicco2021,
+author = {Chicco, Davide and Tötsch, Niklas and Jurman, Giuseppe},
+title = {The Matthews correlation coefficient (MCC) is more reliable than balanced accuracy, bookmaker informedness, and markedness in two-class confusion matrix evaluation},
+journal = {BioData Mining},
+volume = {14},
+page = {13},
+issue = {1},
+year = {2021},
+doi = {10.1186/s13040-021-00244-z},
+URL = {https://doi.org/10.1186/s13040-021-00244-z},
+eprint = {https://doi.org/10.1186/s13040-021-00244-z}
+}
+```
