@@ -1,10 +1,8 @@
 # The Matthews correlation coefficient (MCC) is more reliable than balanced accuracy, bookmaker informedness, and markedness in two-class confusion matrix evaluation
 
-This repository contains the necessary jupyter notebooks to recreate the figures from our open access publication
+This repository contains the necessary jupyter notebooks to recreate the figures from our open access article
 
-Davide Chicco, Niklas Tötsch and Giuseppe Jurman. 
-["The Matthews correlation coefficient (MCC) is more reliable than balanced accuracy, bookmaker informedness, and markedness in two-class confusion matrix evaluation"](https://doi.org/10.1186/s13040-021-00244-z). 
-BioData Mining 14, 13 (2021)
+> Davide Chicco, Niklas Tötsch and Giuseppe Jurman. ["The Matthews correlation coefficient (MCC) is more reliable than balanced accuracy, bookmaker informedness, and markedness in two-class confusion matrix evaluation"](https://doi.org/10.1186/s13040-021-00244-z). BioData Mining 14, 13 (2021)
 
 from scratch.
 Please refer to the article for an in-depth discussion of the project.
