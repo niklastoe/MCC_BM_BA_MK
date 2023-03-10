@@ -23,7 +23,7 @@ If you experience any problems with missing packages/dependencies, please create
 
 # Contact
 
-If you have questions or comments, please contact [niklas(dot)toetsch(at)uni-due(dot)de](mailto:niklas.toetsch@uni-due.de) or create an [issue](https://github.com/niklastoe/MCC_BM_BA_MK/issues).
+If you have questions or comments, please create an [issue](https://github.com/niklastoe/MCC_BM_BA_MK/issues).
 
 # Citation
 
